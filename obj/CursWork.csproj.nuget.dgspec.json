@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Users\\Кристина\\Desktop\\Колледж\\3 курс\\КПЯП\\Курсовой проект\\CursWork\\CursWork\\CursWork.csproj": {}
+  },
+  "projects": {
+    "D:\\Users\\Кристина\\Desktop\\Колледж\\3 курс\\КПЯП\\Курсовой проект\\CursWork\\CursWork\\CursWork.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\Кристина\\Desktop\\Колледж\\3 курс\\КПЯП\\Курсовой проект\\CursWork\\CursWork\\CursWork.csproj",
+        "projectName": "CursWork",
+        "projectPath": "D:\\Users\\Кристина\\Desktop\\Колледж\\3 курс\\КПЯП\\Курсовой проект\\CursWork\\CursWork\\CursWork.csproj",
+        "packagesPath": "C:\\Users\\Кристина\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Кристина\\Desktop\\Колледж\\3 курс\\КПЯП\\Курсовой проект\\CursWork\\CursWork\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Кристина\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "OpenTK": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
+            "OpenTK.GLControl": {
+              "target": "Package",
+              "version": "[3.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
